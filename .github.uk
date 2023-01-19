@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Cheetsheet</title>
+    <link  href="./resources/index.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body>
+
+<!--heading-->
+
+    <div class="heading">
+    <header>
+        <h1>HTML Cheetsheet</h1>
+    </header>
+
+<!--main body-->
+
+</div>
+<div class="head">
+<h2>HTML Attributes</h2>
+<br>
+
+<table>
+    <thead class="thead">
+       <tr>
+        <th>Tag</th>
+        <th colspan="8">Name</th>
+        <th colspan="10">Description</th>
+       </tr>
+    </thead>
+    <tbody class="tbody">
+        <tr>
+            <td>< br > - < / br ></td>
+            <td colspan="8">Line Break Element</td>
+            <td colspan="10">Creates a line break in text. </td>
+        </tr>
+        <tr>
+            <td>< img > - < / img ></td>
+            <td colspan="8">Image Element</td>
+            <td colspan="10">Embeds images in a HTML document</td>
+        </tr>
+        <tr>
+            <td> < h1-h6 > - < / h1-h6 > </td>
+            <td colspan="8">Heading Elements</td>
+            <td colspan="10">Six different levels of heading elements</td>
+        </tr>
+        <tr>
+            <td><  p  > < / p > </td>
+            <td colspan="8">Paragraph Element</td>
+            <td colspan="10">Contains and displays a block of text.</td>
+            
+        </tr>
+        <tr>
+            <td><  ul  > < / ul ></td>
+            <td colspan="8">Unordered List Element</td>
+            <td colspan="10">Creates a list of items in no particular order.</td>
+        </tr>
+        <tr>
+            <td>< ol > < / ol ></td>
+            <td colspan="8">Ordered List Element</td>
+            <td colspan="10">Creates a list of items in sequential order</td>
+            
+        </tr>
+        <tr>
+            <td>< body > < / body ></td>
+            <td colspan="8">Body Element</td>
+            <td colspan="10">Represents the content of an HTML document</td>
+        </tr>
+        <tr>
+            <td>< span  > < / span ></td>
+            <td colspan="8">Span Element</td>
+            <td colspan="10">Inline container for text and can be used to group text for styling purposes</td>
+            
+        </tr>
+        <tr>
+            <td>< a  > < / a ></td>
+            <td colspan="8">Anchor Element</td>
+            <td colspan="10">Anchor element is used to create hyperlinks in an HTML document</td>
+            
+        </tr>
+        </tbody>
+    </table>
+</div>
+      
+    
+</body>
+</html>
+
+table{
+    text-align: center;
+    margin-left: 100px;
+    width: 80%;
+    border: solid black 5px;
+}
+
+
+body{
+    background-color: #FAEBD7;
+   
+}
+
+
+
+.heading h1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 500%;
+    background-color: lightslategray;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+
+
+.head h2{
+    font-size: 350%;
+    text-align: center;
+    
+}
+
+.thead{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.tbody{
+    background-color: grey;
+    opacity: 10px;
+    color: white;
+}
+
+.tbody, .thead, table{
+    font-family: Lucida 'Courier New', Courier, monospace monospace;
+    text-align: center;
+}
